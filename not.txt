@@ -1,0 +1,7 @@
+nn = veri girişi zorunlu
+default = veri girilmezse gönderilecek veri
+primary key = eşsiz. tc numaraları gibi
+
+db = sqlite.connect(":memory:") yaparsan ramda bir sunucu oluşturur. pc kapandığı an sunucu silinir
+TABLO OLUŞTURMAK İÇİN ====      CREATE TABLE tabloadi ('kolon1', 'kolon2')
+CREATE TABLE IF NOT EXISTS yaparsan daha iyi. tablo daha önceden oluşmuşsa oluşturmaz
